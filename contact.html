@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Contact</title>
@@ -69,10 +69,10 @@
                 </div> <!--contactwrap-->
                 <h2 style="margin-top:40px">Location</h2>
                 <div class="locationwrap">
-                        <p><strong>Institut d'Investigació Biomédica de Bellvitge (IDIBELL)</strong></p>
-                        <p>Hospital Duran i Reynals - Edifici Terapèutic - 2a planta</p>
-                        <p>Gran Via de l'Hospitalet, 199, 08908 Hospitalet de Llobregat</p>
-                        <p>Barcelona - Spain</p>
+                        <p><strong>Departament de Ciències Fisiològiques</strong></p>
+                        <p>Universitat de Barcelona/IDIBELL</p>
+                        <p>Feixa Llarga s/n, 08907 </p>
+                        <p>L'Hospitalet de Llobregat - Spain</p>
           
                 </div> <!--locationwrap-->
             
@@ -88,7 +88,8 @@
         
         </div> <!--contact-->
         <footer>
-            <span>&copy; 2025 Gene Regulation of Cell identity LAB  Web created by <a href="https://annatv.click/">Anna Taulés</a></span>
+           <span>&copy; 2025 Gene Regulation of Cell identity LAB
+            Web created by <a href="https://annatv.click/">Anna Taulés</a></span>
             
         </footer>
     </main>
@@ -98,8 +99,8 @@
     <script>
         //MAP
         let mapOptions = {
-            center: [41.36333910629639, 2.1330586196586387],
-            zoom: 20
+            center: [41.346322, 2.106681],
+            zoom: 17
         }
 
         let map = new L.map('map', mapOptions);
@@ -108,7 +109,7 @@
         let layer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
         map.addLayer(layer);
 
-        let marker = new L.Marker([41.36333910629639, 2.1330586196586387]).addTo(map);   </script>
+        let marker = new L.Marker([41.346322, 2.106681]).addTo(map);   </script>
 </body>
 
 </html>
